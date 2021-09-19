@@ -1,10 +1,602 @@
-<!DOCTYPE html>
-<html lang="en">
+<html  lang="en" style="height: 100%">
 <head>
+    <style>
+        p{color:white}
+    </style>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>PixelDream_main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
 </head>
-<body>
+<body style="background-color:#1e1e1e;height: 100%" data-spy="scroll" data-target="#myScrollspy" data-offset="50">
+<!-- Nav Bar-->
+<div id="includedContent"></div>
+<!-- Side Nav -->
+<nav class="col-sm-3 col-4" id="myScrollspy" style="position: fixed;width: 12%;text-align: right;font-family: PTSansNarrow-Regular,serif;z-index: 20;display: block;">
+    <ul class="nav nav-pills flex-column" style="width: 100px;float: right">
+        <li class="nav-item">
+            <a class="nav-link active" href="#section1" style="padding:10px">Back To Top</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#section2" style="padding:10px">Education & Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#section3" style="padding:10px">Skills & Interests</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#section4" style="padding:10px">Selected Research Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#section5" style="padding:10px">Publication</a>
+        </li>
+    </ul>
+</nav>
+<!-- Content -->
+<div id="section1" class="backimg" style="width: 100%;background-image:url('img/jess-bailey-q10VITrVYUM-unsplash.jpg');">
+    <div style="color: white; padding-top: 110px;text-shadow: 2px 2px 5px #00000088;" class = "sect1_title">Curriculum Vitae</div>
+</div>
+<div id="section2" class="text-body" >
+    <div style="width: 100%; color: white">
+        <table border="0" style="width: 100%"><tr>
+            <td style="vertical-align:bottom;"><h1>Education</h1></td>
+            <td style="vertical-align:bottom;"><address style="text-align: right; color: white; line-height: 1.5">
+                <strong>Haowen Zhou</strong><br>
+                Tel: +86-18190722339<br>
+                Email: <a href="mailto:#">haowen.zhou19@gmail.com</a></address>
+            </td>
+
+        </tr></table>
+
+        <hr SIZE=1
+            style="border-color: white;margin-top: 0">
+
+        <table border="0" style="width: 100%; color: white"><tr>
+            <td>
+                <a href="https://zhiyuan.sjtu.edu.cn/html/zhiyuan/"><b>Zhiyuan Honors Program</b></a> (<10% students admitted), <b>Shanghai Jiao Tong University (SJTU)</b>
+            </td>
+            <td style="text-align: right">09/2017-06/2021</td>
+        </tr></table>
+
+        Bachelor of Science in Bioscience<br/>
+        <h4 style="margin: 16px 0 0 0">Standardized Test and GPA:</h4>
+        TOEFL: 102  Overall GPA: 3.26/4.3  Senior GPA: 3.56/4.3<br/>
+        <h4 style="margin: 16px 0 0 0">Scholarship and Honors:</h4>
+        <table border="0" style="width: 100%; color: white"><tr>
+            <td>Zhiyuan Honors Scholarships(2017-2020,  for 4 consecutive years)</td>
+            <td>Zhiyuan Honors Sunshine Leader Scholarship (2018)</td>
+        </tr><tr><td>Undergraduate Scholarships(2017-2020,  for 4 consecutive years)</td><td>Overseas Study Scholarship (2019,2021)</td></tr></table>
+        <h4 style="margin: 16px 0 0 0; text-decoration: underline">Overseas Research:</h4>
+        <b>Broad Institute of MIT and Harvard</b> (Research Assistant), <b>Yale University</b> (Summer Research Intern)
+    </div>
+</div>
+
+<div id="section3" class="text-body">
+    <div style="width: 100%; color: white">
+        <table border="0" style="width: 100%"><tr>
+            <td style="vertical-align:bottom;"><h1>Skills & Interests</h1></td>
+        </tr></table>
+
+        <hr SIZE=1
+            style="border-color: white;margin-top: 0">
+        <h4 style="margin: 16px 0 0 0">Coding:</h4>
+        C++ (3 yrs), Perl (3 yrs), Python (1 yr), Javascript (3 yrs)<br/>
+        <h4 style="margin: 16px 0 0 0">Data Analysis & Management:</h4>
+        R (3 yrs), MySQL (2 yr), Linux system operation and server management<br/>
+        <h4 style="margin: 16px 0 0 0;">Web Design:</h4>
+        HTML (3 yrs), CSS (3 yrs), Javascript (3 yrs), PHP Language (3 yrs)<br/>
+        <h4 style="margin: 16px 0 0 0;">Selected Enrolled Courses:</h4>
+        <div class="panel-group" id="sel-course" style="width:80%; margin-top: 10px">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#sel-course" href="#collapse1">➤ Click to view</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <h4 style="margin: 0;">Interdisciplinarity:</h4>
+                        <ul>
+                            <li>Computational Biology,
+                                Biological Big Data Analysis,
+                                Introduction to Functional Genomics,
+                                Biostatistics,
+                                Introduction to Cardiovascular Mechanobiology,</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Biology & Chemistry:</h4>
+                        <ul>
+                            <li>Biology (Micro/Macro),Genetics, Biochemistry, Cell Biology</li>
+                            <li>Chemical Principles,
+                                Organic Chemistry,</li>
+                        </ul>
+                        <h4 style="margin: 16px 0 0 0;">Math, Physics, Statistics & Computer Science:</h4>
+                        <ul>
+                            <li>Mathematics Analysis,
+                                Linear Algebra,
+                                Probability and Statistics,
+                                Generalized Linear Model</li>
+                            <li>Introduction to physics</li>
+                            <li>Introduction to Computing,
+                                Thinking and Approach of Programming,
+                                Algorithm and Data Structure,
+                                Machine Learning,
+                                Principle and Technology of Database</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Laboratory & Seminar:</h4>
+                        <ul>
+                            <li>Introductory Biology Seminar,
+                                Cell Biology Seminar, Genetics Seminar</li>
+                            <li>Laboratory of Chemical Principles,
+                                Physics Laboratory,
+                                Organic Chemistry Laboratory,
+                                Biology Laboratory</li>
+                        </ul>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4 style="margin: 16px 0 0 0;">Research Interests:</h4>
+        Computational Biology/Bioinformatics<br/>
+        Single Cell Genomics, Machine Learning, Image Processing
+    </div>
+</div>
+
+<div id="section4" class="text-body">
+    <div style="width: 100%; color: white">
+        <table border="0" style="width: 100%"><tr>
+            <td style="vertical-align:bottom;"><h1>Selected Research Projects</h1></td>
+        </tr></table>
+
+        <hr SIZE=1
+            style="border-color: white;margin-top: 0">
+
+        <table border="0" style="width: 100%; color: white"><tr>
+            <td style="vertical-align:bottom;">
+                <h4 style=" margin-bottom: 0">
+                    Wang Lab (Instructed by <a href="https://www.broadinstitute.org/bios/xiao-wang">Dr. Xiao Wang</a>),
+                    <b>Broad Institute of MIT and Harvard</b></h4></td>
+            <td style="vertical-align:bottom;text-align: right"> 02/2020-Now</td>
+        </tr></table>
+        <div class="panel-group" id="project-1" style="width:80%; margin-top: 10px">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#project-1" href="#collapse2">
+                            ➤ A New method for analyzing 3D transcriptomics data</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <h4 style="margin: 0;">Interdisciplinarity:</h4>
+                        <ul>
+                            <li>Computational Biology,
+                                Biological Big Data Analysis,
+                                Introduction to Functional Genomics,
+                                Biostatistics,
+                                Introduction to Cardiovascular Mechanobiology,</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Biology & Chemistry:</h4>
+                        <ul>
+                            <li>Biology (Micro/Macro),Genetics, Biochemistry, Cell Biology</li>
+                            <li>Chemical Principles,
+                                Organic Chemistry,</li>
+                        </ul>
+                        <h4 style="margin: 16px 0 0 0;">Math, Physics, Statistics & Computer Science:</h4>
+                        <ul>
+                            <li>Mathematics Analysis,
+                                Linear Algebra,
+                                Probability and Statistics,
+                                Generalized Linear Model</li>
+                            <li>Introduction to physics</li>
+                            <li>Introduction to Computing,
+                                Thinking and Approach of Programming,
+                                Algorithm and Data Structure,
+                                Machine Learning,
+                                Principle and Technology of Database</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Laboratory & Seminar:</h4>
+                        <ul>
+                            <li>Introductory Biology Seminar,
+                                Cell Biology Seminar, Genetics Seminar</li>
+                            <li>Laboratory of Chemical Principles,
+                                Physics Laboratory,
+                                Organic Chemistry Laboratory,
+                                Biology Laboratory</li>
+                        </ul>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#project-1" href="#collapse3">
+                            ➤ Modeling and fitting mRNA dynamics at sub-cellular resolution</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <h4 style="margin: 0;">Interdisciplinarity:</h4>
+                        <ul>
+                            <li>Computational Biology,
+                                Biological Big Data Analysis,
+                                Introduction to Functional Genomics,
+                                Biostatistics,
+                                Introduction to Cardiovascular Mechanobiology,</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Biology & Chemistry:</h4>
+                        <ul>
+                            <li>Biology (Micro/Macro),Genetics, Biochemistry, Cell Biology</li>
+                            <li>Chemical Principles,
+                                Organic Chemistry,</li>
+                        </ul>
+                        <h4 style="margin: 16px 0 0 0;">Math, Physics, Statistics & Computer Science:</h4>
+                        <ul>
+                            <li>Mathematics Analysis,
+                                Linear Algebra,
+                                Probability and Statistics,
+                                Generalized Linear Model</li>
+                            <li>Introduction to physics</li>
+                            <li>Introduction to Computing,
+                                Thinking and Approach of Programming,
+                                Algorithm and Data Structure,
+                                Machine Learning,
+                                Principle and Technology of Database</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Laboratory & Seminar:</h4>
+                        <ul>
+                            <li>Introductory Biology Seminar,
+                                Cell Biology Seminar, Genetics Seminar</li>
+                            <li>Laboratory of Chemical Principles,
+                                Physics Laboratory,
+                                Organic Chemistry Laboratory,
+                                Biology Laboratory</li>
+                        </ul>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#project-1" href="#collapse4">
+                            ➤ Multi-scale clustering analysis of spatial gene expression</a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <h4 style="margin: 0;">Interdisciplinarity:</h4>
+                        <ul>
+                            <li>Computational Biology,
+                                Biological Big Data Analysis,
+                                Introduction to Functional Genomics,
+                                Biostatistics,
+                                Introduction to Cardiovascular Mechanobiology,</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Biology & Chemistry:</h4>
+                        <ul>
+                            <li>Biology (Micro/Macro),Genetics, Biochemistry, Cell Biology</li>
+                            <li>Chemical Principles,
+                                Organic Chemistry,</li>
+                        </ul>
+                        <h4 style="margin: 16px 0 0 0;">Math, Physics, Statistics & Computer Science:</h4>
+                        <ul>
+                            <li>Mathematics Analysis,
+                                Linear Algebra,
+                                Probability and Statistics,
+                                Generalized Linear Model</li>
+                            <li>Introduction to physics</li>
+                            <li>Introduction to Computing,
+                                Thinking and Approach of Programming,
+                                Algorithm and Data Structure,
+                                Machine Learning,
+                                Principle and Technology of Database</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Laboratory & Seminar:</h4>
+                        <ul>
+                            <li>Introductory Biology Seminar,
+                                Cell Biology Seminar, Genetics Seminar</li>
+                            <li>Laboratory of Chemical Principles,
+                                Physics Laboratory,
+                                Organic Chemistry Laboratory,
+                                Biology Laboratory</li>
+                        </ul>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#project-1" href="#collapse5">
+                            ➤ <i>In situ</i> electro-sequencing in three-dimensional tissues</a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <h4 style="margin: 0;">Interdisciplinarity:</h4>
+                        <ul>
+                            <li>Computational Biology,
+                                Biological Big Data Analysis,
+                                Introduction to Functional Genomics,
+                                Biostatistics,
+                                Introduction to Cardiovascular Mechanobiology,</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Biology & Chemistry:</h4>
+                        <ul>
+                            <li>Biology (Micro/Macro),Genetics, Biochemistry, Cell Biology</li>
+                            <li>Chemical Principles,
+                                Organic Chemistry,</li>
+                        </ul>
+                        <h4 style="margin: 16px 0 0 0;">Math, Physics, Statistics & Computer Science:</h4>
+                        <ul>
+                            <li>Mathematics Analysis,
+                                Linear Algebra,
+                                Probability and Statistics,
+                                Generalized Linear Model</li>
+                            <li>Introduction to physics</li>
+                            <li>Introduction to Computing,
+                                Thinking and Approach of Programming,
+                                Algorithm and Data Structure,
+                                Machine Learning,
+                                Principle and Technology of Database</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Laboratory & Seminar:</h4>
+                        <ul>
+                            <li>Introductory Biology Seminar,
+                                Cell Biology Seminar, Genetics Seminar</li>
+                            <li>Laboratory of Chemical Principles,
+                                Physics Laboratory,
+                                Organic Chemistry Laboratory,
+                                Biology Laboratory</li>
+                        </ul>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <table border="0" style="width: 100%; color: white; margin-top: 16px"><tr>
+            <td style="vertical-align:bottom;">
+                <h4 style=" margin-bottom: 0">
+                    Xue Lab (Instructed by the Dean of School of Agriculture & Biology, <a href="http://www.agri.sjtu.edu.cn/En/Data/List/Dean">Dr. Hongwei Xue</a> )
+                    <b>, SJTU</b></h4></td>
+            <td style="vertical-align:bottom;text-align: right"> 06/2021-Now</td>
+        </tr></table>
+        <div class="panel-group" id="project-2" style="width:80%; margin-top: 10px">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#project-2" href="#collapse6">
+                            ➤ Project: A New method for analyzing 3D transcriptomics data</a>
+                    </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse in">
+                    <div class="panel-body">
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <table border="0" style="width: 100%; color: white; margin-top: 16px"><tr>
+            <td style="vertical-align:bottom;">
+                <h4 style=" margin-bottom: 0">
+                    <a href="https://tyelab.org/">Tye Lab</a> (Instructed by <a href="https://scsb.mit.edu/people/scsb-postdoctoral-fellows/nancy-padilla-coreano-phd/">
+                    Dr. Nancy Padilla</a> ),
+                    <b>Salk Institute / MIT BCS</b></h4></td>
+            <td style="vertical-align:bottom;text-align: right"> 02/2020-11/2020</td>
+        </tr></table>
+        <div class="panel-group" id="project-3" style="width:80%; margin-top: 10px">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#project-3" href="#collapse7">
+                            ➤  A Multi-Animal Tracking and Behavioral Analysis Tool</a>
+                    </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <h4 style="margin: 0;">Interdisciplinarity:</h4>
+                        <ul>
+                            <li>Computational Biology,
+                                Biological Big Data Analysis,
+                                Introduction to Functional Genomics,
+                                Biostatistics,
+                                Introduction to Cardiovascular Mechanobiology,</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Biology & Chemistry:</h4>
+                        <ul>
+                            <li>Biology (Micro/Macro),Genetics, Biochemistry, Cell Biology</li>
+                            <li>Chemical Principles,
+                                Organic Chemistry,</li>
+                        </ul>
+                        <h4 style="margin: 16px 0 0 0;">Math, Physics, Statistics & Computer Science:</h4>
+                        <ul>
+                            <li>Mathematics Analysis,
+                                Linear Algebra,
+                                Probability and Statistics,
+                                Generalized Linear Model</li>
+                            <li>Introduction to physics</li>
+                            <li>Introduction to Computing,
+                                Thinking and Approach of Programming,
+                                Algorithm and Data Structure,
+                                Machine Learning,
+                                Principle and Technology of Database</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Laboratory & Seminar:</h4>
+                        <ul>
+                            <li>Introductory Biology Seminar,
+                                Cell Biology Seminar, Genetics Seminar</li>
+                            <li>Laboratory of Chemical Principles,
+                                Physics Laboratory,
+                                Organic Chemistry Laboratory,
+                                Biology Laboratory</li>
+                        </ul>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <table border="0" style="width: 100%; color: white; margin-top: 16px"><tr>
+            <td style="vertical-align:bottom;">
+                <h4 style=" margin-bottom: 0">
+                    Zhao Center (Instructed by <a href="https://medicine.yale.edu/profile/hongyu_zhao/">Dr. Hongyu Zhao</a> &
+                    <a href="https://medicine.yale.edu/profile/heidi_zapata/">Dr. Zapata Heidi</a>),
+                    <b>School of Medicine, Yale University</b></h4></td>
+            <td style="vertical-align:bottom;text-align: right"> 07/2019-09/2019</td>
+        </tr></table>
+        <div class="panel-group" id="project-4" style="width:80%; margin-top: 10px">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#project-4" href="#collapse8">
+                            ➤ Project: A New method for analyzing 3D transcriptomics data</a>
+                    </h4>
+                </div>
+                <div id="collapse8" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <h4 style="margin: 0;">Interdisciplinarity:</h4>
+                        <ul>
+                            <li>Computational Biology,
+                                Biological Big Data Analysis,
+                                Introduction to Functional Genomics,
+                                Biostatistics,
+                                Introduction to Cardiovascular Mechanobiology,</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Biology & Chemistry:</h4>
+                        <ul>
+                            <li>Biology (Micro/Macro),Genetics, Biochemistry, Cell Biology</li>
+                            <li>Chemical Principles,
+                                Organic Chemistry,</li>
+                        </ul>
+                        <h4 style="margin: 16px 0 0 0;">Math, Physics, Statistics & Computer Science:</h4>
+                        <ul>
+                            <li>Mathematics Analysis,
+                                Linear Algebra,
+                                Probability and Statistics,
+                                Generalized Linear Model</li>
+                            <li>Introduction to physics</li>
+                            <li>Introduction to Computing,
+                                Thinking and Approach of Programming,
+                                Algorithm and Data Structure,
+                                Machine Learning,
+                                Principle and Technology of Database</li>
+                        </ul>
+
+                        <h4 style="margin: 16px 0 0 0;">Laboratory & Seminar:</h4>
+                        <ul>
+                            <li>Introductory Biology Seminar,
+                                Cell Biology Seminar, Genetics Seminar</li>
+                            <li>Laboratory of Chemical Principles,
+                                Physics Laboratory,
+                                Organic Chemistry Laboratory,
+                                Biology Laboratory</li>
+                        </ul>
+
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="section5" class="text-body" >
+    <div style="width: 100%; color: white">
+        <table border="0" style="width: 100%"><tr>
+            <td style="vertical-align:bottom;"><h1>Publication</h1></td>
+        </tr></table>
+
+        <hr SIZE=1
+            style="border-color: white;margin-top: 0">
+        <div style="border-color: white;border-style: solid;border-width: 1px; padding: 16px; margin-bottom: 8px">
+            <h5>Integrative <i>in situ</i> mapping of single-cell transcriptional states and tissue histopathology in an Alzheimer’s disease model</h5>
+            <p><b>Author:</b> Hu Zeng*, Jiahao Huang*, <strong style="text-decoration: underline">Haowen Zhou*</strong>, William J. Meilandt, Borislav Dejanovic, Yiming Zhou, Christopher J. Bohlen, Seung-Hye Lee, Jingyi Ren, Albert Liu, Hao Sheng, Jia Liu, Morgan Sheng and Xiao Wang</p>
+            Submitted to <i>Nature Neuroscience</i>. The manuscript was sent for peer review in Sep 15, 2021.
+        </div>
+
+        <div style="border-color: white;border-style: solid;border-width: 1px; padding: 16px; margin-bottom: 8px">
+            <h5>ClusterMap: multi-scale clustering analysis of spatial gene expression</h5>
+            <p><b>Author:</b> Yichun He*, Xin Tang*, Jiahao Huang, Jingyi Ren, <strong style="text-decoration: underline">Haowen Zhou</strong>, Kevin Chen, Albert Liu, Hailing Shi, Zuwan Lin, Qiang Li, Abhishek Aditham, Johain Ounadjela, Emanuelle Grody, Jian Shu, Jia Liu, and Xiao Wang
+            </p>
+            <b>Link:</b> <a href="https://www.biorxiv.org/content/10.1101/2021.02.18.431337v1">bioRxiv, 2021</a> <i>Accepted by Nature Communications in Sep 9, 2021</i>
+        </div>
+
+        <div style="border-color: white;border-style: solid;border-width: 1px; padding: 16px;margin-bottom: 8px">
+            <h5><i>In situ</i> electro-sequencing in three-dimensional tissues</h5>
+            <p><b>Author:</b> Qiang Li*, Zuwan Lin*, Ren Liu*, Xin Tang*, Jiahao Huang, Yichun He, <strong style="text-decoration: underline">Haowen Zhou</strong>, Hao Sheng, Hailing Shi, Xiao Wang, Jia Liu</p>
+            <b>Link:</b> <a href="https://www.biorxiv.org/content/10.1101/2021.04.22.440941v1">bioRxiv, 2021</a>
+        </div>
+
+        <div style="border-color: white;border-style: solid;border-width: 1px; padding: 16px;margin-bottom: 8px">
+            <h5>AlphaTracker: A Multi-Animal Tracking and Behavioral Analysis Tool</h5>
+            <p><b>Author:</b> Zexin Chen*, Ruihan Zhang*, Yu Eva Zhang, <strong style="text-decoration: underline">Haowen Zhou</strong>, Hao-Shu Fang, Rachel R. Rock, Aneesh Bal, Nancy Padilla-Coreano, Laurel Keyes, Kay M. Tye, Cewu Lu
+            </p>
+            <b>Link:</b> <a href="https://www.biorxiv.org/content/10.1101/2020.12.04.405159v1">bioRxiv, 2020</a>
+        </div>
+
+
+
+
+
+
+
+    </div>
+</div>
+<script src="js/javascript.js"></script>
+<script>
+    $(function(){
+        $("#includedContent").load("navbar.html");
+        waitForElementToDisplay("#navbar-teamName-text",function(){document.getElementById('navbar-teamName-text').innerText = "Curriculum Vitae";},100,9000);
+    });
+
+</script>
+<!-- Web Map -->
+<div id="web_map" style="width: 100%;height: 20%;font-family: PTSansNarrow-Regular,serif;background-color:#1e1e1e;margin-bottom:-4px;padding-top:3%">
+    <ol class="breadcrumb" style="padding-left: 160px">
+        <li class="breadcrumb-item"><a href="index.html">Main</a></li>
+        <li class="breadcrumb-item active"><a href="#">CV</a></li>
+        <li></li>
+    </ol>
+    <footer style="color: white;float: right;margin-right: 10%;">
+        &copy; Pixel-Dream <span id="year">2021</span>
+        <i>Photo by <a href="https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jess Bailey</a>
+            on <a href="https://unsplash.com/s/photos/resume?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></i>
+
+    </footer>
+</div>
+
+<!-- Line -->
+
+</div>
+<div id="btmline" style="position: fixed;bottom: 0;left: 0;height: 6px;width: 0;background-color: white"></div>
 
 </body>
 </html>

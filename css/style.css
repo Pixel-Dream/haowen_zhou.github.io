@@ -22,15 +22,36 @@
     font-family: "PTSansNarrow-Bold";
     src: url("../fonts/PTSansNarrow-Bold.ttf");
 }
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato.ttf");
+}
+
+#navbar{
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(255,255,255,0) 100%);
+    position: fixed;
+    transition: all 0.5s;
+}
+
+#navbar:hover{
+    background: rgb(39,39,39) !important;
+}
+#navbar-logo  ,#navbar-teamName ,#navbar-teamName{
+    transition: all 0.5s;
+}
+
 .dropdown {
     text-decoration:none;
     position:relative;
-    padding:20px 15px 16px 15px;
+    padding: 18px 15px 18px 15px;
     z-index: 50;
     float: left;
     text-align: center;
-    width: 100px;
+    width:100px;
     font-family: Oswald-SemiBold, serif;
+    transition: all 0.2s;
 }
 
 .dropdown:hover>.navbar-links {
@@ -42,7 +63,7 @@
     content: "";
     width: 0;
     height: 3px;
-    background: #efefef;
+    background: #c62d33;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -51,7 +72,7 @@
 
 .dropdown:hover{
     color: #fdfdfd;
-    background-color: #3b999b;
+    background-color: #454545;
     transition: all .2s;
 }
 
@@ -60,13 +81,14 @@
     width: 100%;
 }
 
-a,a:link{
-    color: #5778a3;
+
+a.SJTU,a.SJTU:link{
+    color: #fdfdfd;
     text-decoration:none;
     position:relative;
     padding:20px 15px 16px 15px;
 }
-a:after{
+a.SJTU:after{
     content: "";
     width: 0;
     height: 3px;
@@ -76,12 +98,12 @@ a:after{
     left: 50%;
     transition: all .2s;
 }
-a:hover{
+a.SJTU:hover{
     color: #fdfdfd;
-    background-color: #5c7eb4;
+    background-color: #454545;
     transition: all .2s;
 }
-a:hover:after,a.active:after{
+a.SJTU:hover:after,.SJTU a.active:after{
     left: 0%;
     width: 100%;
 }
@@ -95,8 +117,8 @@ a:hover:after,a.active:after{
 .link-list a:after{
     content: "";
     width: 0;
-    height: 2px;
-    background: #ef5773;
+    height: 3px;
+    background: #c62d33;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -104,7 +126,7 @@ a:hover:after,a.active:after{
 }
 .link-list a:hover{
     color: #fdfdfd;
-    background-color: rgba(143, 184, 255, 0);
+    background-color: rgba(0,0,0,0);
     transition: all .2s;
 }
 .link-list a:hover:after,.link-list a.active:after{
@@ -148,12 +170,21 @@ a:hover:after,a.active:after{
     transition: all .2s;
 }
 
+.nav-item>.nav-link{
+    color: #9b9b9b;
+}
+
+.nav-item>.nav-link:hover{
+    color: white;
+}
+
 .slopingside{
     height:15px;
     border: 0.5px solid whitesmoke;
     width: 0px;
-    margin-top: 25px;
+    margin-top: 23px;
     float: left;
+    transition: all 0.2s;
 }
 .navbar-title{
     z-index: 50;
@@ -166,23 +197,24 @@ a:hover:after,a.active:after{
 .navbar-links{
     height: auto;
     width: 100%;
-    background-color: rgba(87,120,163,0.9);
+    background-color: rgba(80,80,80,0.9);
     position: fixed;
     top: 60px;
     left: 0;
     display: none;
+    transition: all 0.2s;
 }
 
 .navbar-title:hover .navbar-links{
     display: block;
-    background-color: #5778a3;
+    background-color: #454545;
 
 }
 .link-list{
     float: left;
     font-family: Oswald-Regular,serif;
     text-align: left;
-    margin: 25px 3% 5px 3%
+    margin: 25px 3% 25px 3%
 }
 .map-link-list{
     float: left;
@@ -191,3 +223,155 @@ a:hover:after,a.active:after{
     text-align: left;
     margin: 10px 3% 5px 3%
 }
+.backimg {
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center;
+    animation: fade-in-op 2s;
+    -webkit-animation: fade-in-op 2s;
+
+}
+
+.thumbnail-text {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.thumbnail-title>a,.thumbnail-title>a:link{
+    color: #fdfdfd;
+    text-decoration:none;
+    position:relative;
+    padding:2px 5px 2px 5px;
+    font-size: x-large;
+    transition: all .2s;
+}
+.thumbnail-title>a:after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #f3f3f3;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transition: all .2s;
+}
+.thumbnail-title>a:hover{
+    color: #fdfdfd;
+    font-size: xx-large;
+    background-color: rgba(69,69,69,0);
+    transition: all .2s;
+}
+.thumbnail-title>a:hover:after,.thumbnail-title>a.active:after{
+    left: 0%;
+    width: 100%;
+}
+
+.nav-bar-ul{
+    padding-left: 0!important;
+    margin-left: 0!important;
+    list-style-type: none;
+    list-style-image: none!important;
+}
+.text-img{
+    margin:0 25% 0 25% !important;
+    width: 50%;
+}
+.text-body{
+    width: 100%;
+    background-color: #283950;
+    color:black;padding: 1.5% 10% 5% 14%;
+}
+.tb1
+{
+    background-color:#283950;
+    color:white;
+!important;
+}
+.tb1 th
+{
+    background-color:#283950 !important;
+    color:white !important;
+
+}
+
+.sect1_title
+{
+    font-family: Oswald-SemiBold,serif;
+    text-align: center;
+    font-size: 500%
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-family: PTSansNarrow-Bold, serif;
+}
+
+
+.panel-body{
+     color:white;
+     font-size: 16px;
+     border: 2px solid white;
+     padding: 20px 20px 4px 20px;
+ }
+.panel-title{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 2px solid white;
+    margin-bottom: 0px;
+}
+.panel-title>a{
+    color:white;
+    font-family: PTSansNarrow-Bold, serif;
+}
+.panel-title>a:hover{
+    text-decoration: underline;
+}
+
+
+/* screen < 1000px */
+@media only screen and (max-width: 1000px) {
+    #myScrollspy{
+        display: none !important;
+    }
+    .text-body{
+        padding: 1.5% 3% 1.5% 3% !important;
+        width: 100%;
+        background-color: #283950;
+        color:white;
+    }
+    .text-img{
+        padding:0 25% 0 25% !important;
+        width: 50%;
+    }
+    .dropdown{
+        width: 90px;
+    }
+}
+/* screen < 1070px */
+@media only screen and (max-width: 1070px){
+    .dropdown{
+        width: 90px;
+    }
+}
+@media only screen and (max-width: 790px){
+    #navbar{
+        display:none;
+    }
+    #navbar-top{
+        display:none;
+    }
+    #alt-navbar{
+        display:block;
+    }
+}
+@media only screen and (min-width: 791px){
+    #alt-navbar{
+        display:none;
+    }
+}
+
