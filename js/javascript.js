@@ -19,7 +19,7 @@ function waitForElementToDisplay(selector, callback, checkFrequencyInMs, timeout
 // initialize
 
 document.getElementById("myScrollspy").style.top= document.documentElement.clientHeight/3 +"px";
-document.getElementById("section1").style.height=document.documentElement.clientHeight*0.25+"px";
+
 console.log("padding-top:"+document.documentElement.clientHeight +"px;");
 $("#myScrollspy").hide();
 $("#sideline-bg").hide();
@@ -30,6 +30,7 @@ $(".nav-link").click(function(){
     $("html,body").animate({scrollTop: pos}, 400);
     return false;
 });
+
 //scroll listening
 $(window).scroll(function() {
     var windowHeight=document.documentElement.clientHeight;
@@ -39,7 +40,7 @@ $(window).scroll(function() {
     //document.getElementById("sideline").style.height = (Scroll-windowHeight)/(document.body.scrollHeight-2*windowHeight)*windowHeight+"px";
     if((Scroll+30)>windowHeight){ $("#sideline-bg").fadeIn();$("#sideline").fadeIn();}
     else {$("#sideline-bg").fadeOut();$("#sideline").fadeOut();}
-    if(Scroll>windowHeight*0.25){
+    if(Scroll > (windowHeight*0.2-25) && Scroll > 175){
         $("#myScrollspy").fadeIn();
         document.getElementById("navbar").style.background="rgba(39,39,39,1)";
         document.getElementById("navbar").style.height="30px";
