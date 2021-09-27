@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .panel-title>a{
     color:white;
-    font-family: PTSansNarrow-Bold, serif;
+    font-family: PTSansNarrow-Regular, serif;
 }
 .panel-title>a:hover{
     text-decoration: underline;
