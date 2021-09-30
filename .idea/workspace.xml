@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bd35a5b-5021-455a-a5e1-fc0709a2b782" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/cv.html" afterDir="false" />
-    </list>
+    <list default="true" id="9bd35a5b-5021-455a-a5e1-fc0709a2b782" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +61,7 @@
       <workItem from="1632044085816" duration="559000" />
       <workItem from="1632466868968" duration="1605000" />
       <workItem from="1632515259068" duration="16933000" />
-      <workItem from="1632752084727" duration="2264000" />
+      <workItem from="1632752084727" duration="2958000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize">
       <created>1631972931678</created>
@@ -110,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632724763698</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Sep 27, css and layout">
+      <created>1632756316916</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632756316916</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,25 +125,26 @@
     <MESSAGE value="Sep 15, cv upload" />
     <MESSAGE value="Sep 27, cv upload" />
     <MESSAGE value="Sep 27, cv arrange" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sep 27, cv arrange" />
+    <MESSAGE value="Sep 27, css and layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sep 27, css and layout" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="430" y="136" key="CommitChangelistDialog2" timestamp="1632724763593">
-      <screen x="48" y="23" width="1744" height="1097" />
+    <state x="421" y="132" key="CommitChangelistDialog2" timestamp="1632756316739">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="-1206" y="-34" key="CommitChangelistDialog2/0.23.1920.1057/-2500.-430.2500.1417@-2500.-430.2500.1417" timestamp="1631974258444" />
-    <state x="421" y="132" key="CommitChangelistDialog2/0.23.1920.1057/-2500.-430.2500.1417@0.23.1920.1057" timestamp="1632690504392" />
+    <state x="421" y="132" key="CommitChangelistDialog2/0.23.1920.1057/-2500.-430.2500.1417@0.23.1920.1057" timestamp="1632756316739" />
     <state x="994" y="231" key="CommitChangelistDialog2/0.23.1920.1057/-2504.-430.2504.1417@0.23.1920.1057" timestamp="1632044109203" />
     <state x="430" y="136" key="CommitChangelistDialog2/48.23.1744.1097@48.23.1744.1097" timestamp="1632724763593" />
     <state x="469" y="190" key="SettingsEditor" timestamp="1632044058430">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="469" y="190" key="SettingsEditor/0.23.1920.1057/-2504.-430.2504.1417@0.23.1920.1057" timestamp="1632044058430" />
-    <state x="277" y="239" key="Vcs.Push.Dialog.v2" timestamp="1632724769144">
-      <screen x="48" y="23" width="1744" height="1097" />
+    <state x="252" y="231" key="Vcs.Push.Dialog.v2" timestamp="1632756321478">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="-1213" y="130" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-2500.-430.2500.1417@-2500.-430.2500.1417" timestamp="1631973142835" />
-    <state x="252" y="231" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-2500.-430.2500.1417@0.23.1920.1057" timestamp="1632690512792" />
+    <state x="252" y="231" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-2500.-430.2500.1417@0.23.1920.1057" timestamp="1632756321478" />
     <state x="252" y="231" key="Vcs.Push.Dialog.v2/0.23.1920.1057/-2504.-430.2504.1417@0.23.1920.1057" timestamp="1632044128326" />
     <state x="277" y="239" key="Vcs.Push.Dialog.v2/48.23.1744.1097@48.23.1744.1097" timestamp="1632724769144" />
     <state x="537" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1632752206366">
